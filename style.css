@@ -1,0 +1,192 @@
+#title {
+    letter-spacing: 25px;
+    text-align: center;
+    color: rgb(63, 58, 49);
+    text-shadow: 2px 2px 5px rgb(95, 66, 66);
+}
+.spices {
+    position: relative;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+img:hover {
+    opacity: 1.0;
+}
+.search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type=text] {
+    width: 270px;
+    box-sizing: border-box;
+    border: 3px solid rgb(118, 118, 118);
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.415);
+    background-position: 10px 10px; 
+    padding: 10px 30px 10px 30px;
+}
+/* Sidebar */
+#sidebar {
+    float: left;
+    width: 200px;
+
+}
+
+.order {
+    margin-left: 5px;
+}
+/* navigation bar top */
+#top-menu {
+    padding-left: 210px;
+    margin-right: 5px;
+}
+
+#top-menu a:hover {
+    color: blue;
+    background: white;
+}    
+
+ul {
+    list-style-type: none;
+}
+
+ul#horizontal-list li {
+    display: inline-block;
+    padding: 5px 50px 0 50px;
+}
+
+.table {
+    background-color: #7b88af;
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#top-menu a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+}
+ul#bottom-footer li {
+    display: inline;
+    padding: 2px;
+}
+
+/* footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(118, 118, 118);
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 1px;
+}
+
+/* Food heaven menu start*/
+td, th {
+    padding: 20px 50px 20px 50px;
+}
+th {
+    font-size: 18px;
+}
+tr {
+    text-align: left;
+}
+.ding {
+    font-weight: bold;
+    color: rgba(49, 49, 49, 0.623);
+}
+/* Food heaven menu stops*/
+
+.designer {
+    position: fixed;
+    bottom: 55px;
+    margin-left: 5px;
+}
+
+/* TEAM menu */
+
+/* Three columns side by side */
+
+.row {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.column {
+    float: left;
+    width: 32.4%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+  
+  /* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /* Add some shadows */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 16px;
+  }
+  
+  /* Clear floating */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+
+
+
+
+  /* images from bottom page index */
+  .bottom-table {
+    max-width: 75%;
+    margin-bottom: 75px;
+
+  }
+
+  .bottom-table th, td, tr {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
